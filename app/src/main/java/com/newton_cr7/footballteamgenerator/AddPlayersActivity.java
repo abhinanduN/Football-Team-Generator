@@ -54,6 +54,7 @@ public class AddPlayersActivity extends AppCompatActivity {
                     tr.addView(count);
                     tr.addView(name);
                     playerList.addView(tr,new TableLayout.LayoutParams(TableLayout.LayoutParams.WRAP_CONTENT, TableLayout.LayoutParams.WRAP_CONTENT));
+                    newPlayer.setText("");
                 }
             }
         });
