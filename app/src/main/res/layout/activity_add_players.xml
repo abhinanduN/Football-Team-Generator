@@ -60,12 +60,24 @@
                     app:layout_constraintHorizontal_bias="0.5"
                     app:layout_constraintStart_toEndOf="@+id/edit_gk_one"
                     app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
             </android.support.constraint.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:gravity="center"
+                android:text="OutField Players"
+                android:textSize="18sp" />
 
             <TableLayout
                 android:id="@+id/table_players"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
                 android:stretchColumns="1">
 
                 <TableRow
@@ -78,10 +90,10 @@
                         android:id="@+id/textView6"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="No."
                         android:padding="4dp"
+                        android:text="No."
                         android:textColor="#000000"
-                        android:textSize="16sp"/>
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/textView2"

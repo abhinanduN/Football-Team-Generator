@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">FootballTeamGenerator</string>
+    <string name="team_one"><u> Team One </u></string>
+    <string name="team_two"><u> Team Two </u></string>
 </resources>

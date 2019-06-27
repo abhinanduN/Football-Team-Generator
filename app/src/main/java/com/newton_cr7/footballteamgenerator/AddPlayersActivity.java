@@ -49,8 +49,10 @@ public class AddPlayersActivity extends AppCompatActivity {
                     counter++;
                     TextView count= new TextView(getApplicationContext());
                     TextView name= new TextView(getApplicationContext());
-                    count.setText(""+counter);
-                    name.setText(newPlayer.getText().toString());
+                    count.setTextColor(getResources().getColor(R.color.colorBlack));
+                    name.setTextColor(getResources().getColor(R.color.colorBlack));
+                    count.setText("   "+counter);
+                    name.setText(" "+newPlayer.getText().toString());
                     tr.addView(count);
                     tr.addView(name);
                     playerList.addView(tr,new TableLayout.LayoutParams(TableLayout.LayoutParams.WRAP_CONTENT, TableLayout.LayoutParams.WRAP_CONTENT));
